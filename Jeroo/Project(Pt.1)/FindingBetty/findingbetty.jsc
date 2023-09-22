@@ -1,0 +1,35 @@
+@Java
+
+
+method maze1()
+{
+   while(!isJeroo(AHEAD))
+   {
+      if(!isClear(RIGHT) || !isClear(LEFT))
+      {
+         hop();
+      }
+      if(isFlower(HERE) && !isClear(AHEAD))
+      {
+         turn(RIGHT);
+      }
+      if(isNet(AHEAD) || isWater(AHEAD))
+      {
+         turn(RIGHT);
+      }
+   }
+}
+
+
+
+@@
+
+
+method main()
+{
+   Jeroo Barney = new Jeroo(1,0);
+   Jeroo Betty = new Jeroo(12,11, WEST);
+   
+   Barney.maze1();
+
+}

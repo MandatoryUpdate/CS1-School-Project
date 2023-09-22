@@ -1,0 +1,69 @@
+@Java
+//(c) A+ Computer Science  
+
+method go()
+{
+   while(!isWater(AHEAD))
+   {
+      hop();
+      if(isFlower(AHEAD))
+      {
+         hop();
+         pick();
+      }
+      if(isWater(AHEAD))
+      {
+         moveDownARow();
+      }
+   }
+
+} 
+
+method  moveDownARow()
+{
+   if(isFacing(EAST))
+   {
+      turn(RIGHT);
+      if(isFlower(AHEAD))
+      {
+         hop();
+         pick();
+      }
+      else
+      {
+         hop();
+      }
+      turn(RIGHT);
+   }
+   else if(isFacing(WEST) && !isWater(LEFT))
+   {
+      turn(LEFT);
+      if(isFlower(AHEAD))
+      {
+         hop();
+         pick();
+         
+      }
+      else
+      {
+         hop();
+      }
+      turn(LEFT);
+   }
+   if(isFlower(AHEAD))
+   {
+      hop();
+      pick();
+   }
+   
+}
+
+@@
+//(c) A+ Computer Science
+
+method main()
+{
+   Jeroo sam = new Jeroo();
+   sam.go();
+
+} 

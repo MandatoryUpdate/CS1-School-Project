@@ -1,0 +1,39 @@
+@Java
+//(c) A+ Computer Science  
+
+  //make the Jeroo face the pathway
+method facePath()
+{
+   while(isWater(AHEAD))
+   {
+      if(isWater(AHEAD) && isWater(RIGHT))
+      {
+         turn(LEFT);
+      }
+      if(isWater(AHEAD) && isWater(LEFT))
+      {
+         turn(RIGHT);
+      }
+   }
+}
+
+  //make the Jeroo solve the maze
+  //and move to the center 
+method solveMaze()
+{
+   while(isWater(AHEAD) || isClear(AHEAD))
+   {
+      facePath();
+      hop();
+   }
+
+}
+
+@@
+// (c) A+ Computer Science
+
+method main()
+{
+Jeroo runningJim = new Jeroo();
+runningJim.solveMaze();
+}

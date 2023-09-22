@@ -1,0 +1,77 @@
+@Java
+//(c) A+ Computer Science   
+
+method makeFlowers()
+
+{
+
+hopTwenty();
+turn(RIGHT);
+hopTwenty();
+turn(RIGHT);
+hopTwenty();
+turn(RIGHT);
+hopTwenty();
+turn(RIGHT);
+}
+
+method hopTwenty()
+{
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();  
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();    
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();  
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();    
+  plant();
+  hop();  
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop(); 
+  plant();
+  hop();
+}
+
+@@
+//(c) A+ Computer Science
+
+method main()
+{
+   Jeroo sam = new Jeroo(0,0,92);
+   sam.makeFlowers();
+
+
+} 

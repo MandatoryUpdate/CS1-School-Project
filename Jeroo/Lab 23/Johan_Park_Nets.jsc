@@ -1,0 +1,22 @@
+@Java
+
+@@
+method main()
+{
+
+   Jeroo mary = new Jeroo();
+   mary.hop(4);
+   mary.pick(); //mary picks the flower
+   mary.hop();
+   mary.toss();
+   mary.hop(5);
+   mary.pick(); //mary picks the flower
+   mary.hop(1);
+   mary.toss();
+   mary.hop(4);
+   mary.pick(); //mary picks the flower
+   mary.hop();
+   mary.toss();
+   mary.hop();
+
+}

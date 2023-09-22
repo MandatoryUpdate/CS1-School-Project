@@ -1,0 +1,20 @@
+@Java
+
+@@
+method main()
+{
+//Jeroo 1 
+Jeroo jim = new Jeroo(3,4);
+
+//Jeroo 2
+Jeroo sue = new Jeroo(3);
+
+//Jeroo 3
+Jeroo max = new Jeroo(6,7,SOUTH,8);
+
+//Jeroo 4
+Jeroo lory = new Jeroo(3,6,NORTH);
+
+
+
+}

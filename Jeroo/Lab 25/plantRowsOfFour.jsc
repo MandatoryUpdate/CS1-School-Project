@@ -1,0 +1,50 @@
+@Java
+method plantRowsOfFour()
+{
+plantFour();
+turnAround();
+plantFour();
+
+}
+
+method plantFour()
+{
+   plant(4);
+   hop(4);
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+}
+
+method turnAround()
+{
+turn(RIGHT);
+hop();
+turn(RIGHT);
+
+
+}
+@@
+
+//Jeroo plants two rows of flowers, (5,5,20)
+
+//PRECONDITIONS
+//1. - the four spaces are clear
+//2. - Jeroo has at least 8 flowers
+
+//POSTCONDITIONS
+// The Jeroo has planted 8 flowers
+// The Jeroo is facing in its original location
+
+
+method main()
+{
+   Jeroo sam = new Jeroo(5,5,20);
+   sam.plantRowsOfFour();
+   sam.turnAround();
+
+
+
+}

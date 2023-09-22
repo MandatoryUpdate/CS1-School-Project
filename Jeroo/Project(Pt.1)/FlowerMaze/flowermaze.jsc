@@ -1,0 +1,28 @@
+@Java
+
+
+method solveMaze()
+{
+	while(isClear(AHEAD))
+    {
+       if(!isWater(AHEAD) && !isNet(AHEAD) && !isFlower(AHEAD))
+       {
+          hop();
+       }   
+       if(!isClear(AHEAD) && !isWater(RIGHT))
+       {
+          turn(RIGHT);
+       }
+    }
+}
+
+
+
+@@
+
+
+method main()
+{
+	Jeroo solvingTim = new Jeroo(1,0);
+    solvingTim.solveMaze();
+}

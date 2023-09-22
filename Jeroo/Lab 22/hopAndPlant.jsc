@@ -1,0 +1,26 @@
+@Java
+
+@@
+method main()
+{
+// Create a Jeroo: Instantiation
+
+   Jeroo bob = new Jeroo(0,4,4);
+   bob.plant();
+   bob.hop(10);
+   bob.plant();
+   bob.turn(RIGHT);
+   bob.hop(6);
+   bob.plant();
+   bob.turn(RIGHT);
+   bob.hop(10);
+   bob.plant();
+   bob.turn(RIGHT);
+   bob.hop(6);
+   bob.turn(RIGHT);
+   
+   
+   
+   
+
+}

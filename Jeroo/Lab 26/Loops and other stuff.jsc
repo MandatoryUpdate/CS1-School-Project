@@ -1,0 +1,23 @@
+@Java
+method plantFlowers() {
+   while(isClear(AHEAD))
+   {
+      hop();
+      plant();
+      
+      if(isWater(AHEAD))
+      {
+      turn(RIGHT);
+      
+      }
+      
+    }
+
+}
+@@
+method main(){
+
+   Jeroo sam = new Jeroo(92);
+   sam.plantFlowers();
+
+}

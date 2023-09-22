@@ -1,0 +1,45 @@
+@Java
+//(c) A+ Computer Science  
+
+method spiralIn()
+{
+   while(!isNet(AHEAD) && !isFlower(AHEAD))
+   {
+      hop();
+      if(isWater(AHEAD))
+         {
+         turn(RIGHT);
+      
+         }
+    }
+} 
+
+method spiralOut()
+{
+   hop();
+   pick();
+   turn(RIGHT);
+   turn(RIGHT);
+   
+      while(isClear(AHEAD))
+      {
+         hop();
+         if(isWater(RIGHT) && !isNet(LEFT))
+            {              
+               turn(LEFT);
+                   
+            }
+       }
+}
+
+
+@@
+//(c) A+ Computer Science
+
+method main()
+{
+   Jeroo dumdum = new Jeroo();
+   dumdum.spiralIn();
+   dumdum.spiralOut();
+   
+}

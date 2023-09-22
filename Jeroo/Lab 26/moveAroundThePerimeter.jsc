@@ -1,0 +1,22 @@
+@Java
+method move()
+{
+   while(isClear(AHEAD))
+     {
+        hop();
+        if(isWater(AHEAD))
+        {
+           turn(RIGHT);
+           }
+     }
+
+
+}
+@@
+method main()
+{
+   Jeroo BillyBobJoeGusTheTwentySeventh = new Jeroo();
+   BillyBobJoeGusTheTwentySeventh.move();
+
+
+}

@@ -1,0 +1,15 @@
+@Java
+
+@@
+method main()
+{
+// Create a Jeroo: Instantiation
+
+   Jeroo Gilgamesh = new Jeroo();
+   Jeroo Enkidu = new Jeroo(3,4);
+   Jeroo Ishtar = new Jeroo(6,7,8);
+   Jeroo Ereshkigal = new Jeroo(10,10,WEST,5);
+
+
+
+}

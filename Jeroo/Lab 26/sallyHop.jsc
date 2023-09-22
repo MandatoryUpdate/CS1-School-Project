@@ -1,0 +1,17 @@
+@Java
+
+@@
+method main()
+{
+   Jeroo sally = new Jeroo(9);
+   while(sally.isNet(AHEAD) && sally.hasFlower() && !sally.isWater(AHEAD))
+   {
+      sally.toss();
+      sally.hop();
+      sally.plant();
+   
+   
+   }
+
+
+}

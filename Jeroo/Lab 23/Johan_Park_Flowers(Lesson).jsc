@@ -1,0 +1,23 @@
+@Java
+
+@@
+method main()
+{
+
+   Jeroo bob = new Jeroo(2);
+   Jeroo ann = new Jeroo(0,3);
+
+
+
+//Create Actions
+   bob.hop(2);
+   bob.give(AHEAD);
+   ann.hop(5);
+   ann.plant();
+   ann.hop(4);
+   bob.turn(RIGHT);
+   bob.hop(5);
+   bob.plant();
+   bob.turn(RIGHT);
+
+}

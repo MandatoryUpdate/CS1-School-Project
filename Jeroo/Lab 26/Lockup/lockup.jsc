@@ -1,0 +1,63 @@
+@Java
+//(c) A+ Computer Science  
+
+method clearFence()
+{
+   while(isNet(RIGHT))
+   {
+      if(isFlower(HERE))
+      {
+         pick();
+      }
+      if(isNet(RIGHT))
+      {
+         turn(RIGHT);
+         toss();
+         turn(LEFT);
+         hop();
+      }
+      if(isClear(RIGHT) && isClear(AHEAD))
+      {
+         turnCorner();
+      }
+   }
+} 
+
+method turnCorner()
+{
+   turn(RIGHT);
+   hop(2);
+}
+
+method runWest()
+{
+   while(isClear(AHEAD))
+   {
+      hop();
+   }
+} 
+
+
+@@
+//(c) A+ Computer Science
+
+method main()
+{
+   Jeroo angela = new Jeroo(3,5);
+   Jeroo pennyWise = new Jeroo(10,11);
+   Jeroo theSecondAardvark = new Jeroo(13,12);
+   Jeroo clockWork = new Jeroo(15,9);
+   
+   
+   angela.clearFence();
+   angela.hop();
+   angela.turn(RIGHT);
+   angela.hop();
+   angela.turn(LEFT);
+   angela.clearFence();
+   angela.runWest();
+   pennyWise.runWest();
+   theSecondAardvark.runWest();
+   clockWork.runWest();
+    
+} 

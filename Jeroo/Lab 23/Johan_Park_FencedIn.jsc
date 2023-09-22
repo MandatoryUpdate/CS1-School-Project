@@ -1,0 +1,41 @@
+@Java
+
+@@
+method main()
+{
+   Jeroo gates = new Jeroo(0,0);
+   gates.hop();
+   gates.turn(RIGHT);
+   gates.hop();
+   gates.turn(LEFT);
+   gates.hop();
+   gates.turn(RIGHT);
+   gates.hop();
+   gates.turn(LEFT);
+   gates.hop();
+   gates.turn(RIGHT);
+   gates.hop();
+   gates.turn(LEFT);
+   gates.hop();
+   gates.turn(RIGHT);
+   gates.hop();
+   gates.turn(LEFT);
+   gates.hop();
+   gates.turn(RIGHT);
+   gates.hop();
+   gates.turn(LEFT);
+   gates.hop();
+   gates.turn(RIGHT);
+   gates.hop();
+   gates.turn(LEFT);
+   gates.hop();
+   gates.turn(RIGHT);
+   gates.hop();
+   gates.turn(LEFT);
+   gates.hop();
+   gates.turn(RIGHT);
+   gates.hop();
+   
+
+
+}

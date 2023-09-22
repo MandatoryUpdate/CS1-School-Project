@@ -1,0 +1,151 @@
+@Java
+method make0()
+{
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   turn(RIGHT);
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   turn(RIGHT);
+   hop();
+   turn(LEFT);
+   hop();
+   turn(RIGHT);
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   turn(RIGHT);
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   turn(RIGHT);
+   hop(7);
+}
+
+method make1()
+{
+   hop();
+   plant();
+   hop();
+   plant();
+   turn(RIGHT);
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   turn(LEFT);
+   hop(2);
+   turn(RIGHT);
+   turn(RIGHT);
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   turn(RIGHT);
+   hop(5);
+   plant();
+   hop();
+   turn(RIGHT);
+   hop(6);
+}
+
+method make2()
+{
+hop(2);
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+turn(RIGHT);
+hop();
+plant();
+hop();
+plant();
+turn(RIGHT);
+hop();
+turn(LEFT);
+hop();
+plant();
+turn(RIGHT);
+hop();
+turn(LEFT);
+hop();
+plant();
+turn(RIGHT);
+hop();
+turn(LEFT);
+hop();
+plant();
+hop();
+turn(LEFT);
+hop(3);
+turn(RIGHT);
+turn(RIGHT);
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+turn(RIGHT);
+hop(5);
+plant();
+hop();
+turn(RIGHT);
+hop(7);
+
+
+
+}
+@@
+method main()
+{
+   Jeroo tack = new Jeroo(999999);
+   tack.make0();
+   tack.make1();
+   tack.make2();
+
+
+}

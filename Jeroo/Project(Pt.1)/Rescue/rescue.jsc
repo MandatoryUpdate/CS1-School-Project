@@ -1,0 +1,90 @@
+@Java
+
+method rescue()
+{
+	while(hasFlower() && !isJeroo(AHEAD))
+    {
+
+       if(isWater(AHEAD))
+       {
+          turn(RIGHT);
+          hop(2);
+       }
+       if(isFlower(AHEAD))
+       {
+          turn(LEFT);
+          hop(2);
+       }
+       if(isFlower(LEFT) || isWater(RIGHT))
+       {
+          hop(3);
+       }
+       if(isFlower(RIGHT) || isWater(LEFT))
+       {  
+          turn(RIGHT);
+          turn(RIGHT);
+          hop();
+       }
+       if(isFlower(RIGHT) && isFlower(LEFT))
+       {
+          hop(2);
+       }
+       if(isJeroo(RIGHT))
+       {
+          hop();
+          turn(LEFT);
+          hop();
+       }
+       if(isJeroo(LEFT))
+       {
+          hop();
+          turn(RIGHT);
+          hop();
+       }
+       if(isNet(AHEAD))
+       {
+          toss();
+          hop();
+       }
+       if(isFlower(HERE) && isNet(AHEAD))
+       {
+          pick();
+          toss();
+          hop();
+       }
+       if(isNet(RIGHT) && isNet(LEFT))
+       {
+       hop(4);
+       }
+    }
+}
+
+@@
+//(c) A+ Computer Science
+
+method main()
+
+
+
+{
+//Island 1   
+   //Jeroo prince = new Jeroo(1,0,EAST,2);
+   //Jeroo guide1 = new Jeroo(15,2,EAST);
+   //Jeroo guide2 = new Jeroo(11,8,SOUTH);
+   //Jeroo princess = new Jeroo(19,13,WEST);
+
+//Island 2  
+   //Jeroo prince = new Jeroo(1,0,EAST,2);
+   //Jeroo guide1 = new Jeroo(1,6,EAST);
+   //Jeroo guide2 = new Jeroo(17,1,SOUTH);
+   //Jeroo princess = new Jeroo(1,15,SOUTH);
+//Island 3
+  Jeroo prince = new Jeroo(1,0,EAST,2);
+  Jeroo guide1 = new Jeroo(23,7,EAST);
+  Jeroo guide2 = new Jeroo(2,5,SOUTH);
+  Jeroo princess = new Jeroo(3,1,SOUTH);
+
+  
+  // fill in remaining code
+  prince.rescue();
+} 

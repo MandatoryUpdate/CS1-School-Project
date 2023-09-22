@@ -1,0 +1,34 @@
+@Java
+
+@@
+method main()
+{
+   Jeroo charlie = new Jeroo(4,9,EAST);
+   Jeroo peanuts = new Jeroo(7,13,NORTH);
+   Jeroo linus = new Jeroo(4,15,WEST);
+   charlie.hop();
+   charlie.turn(RIGHT);
+   charlie.hop(4);
+   charlie.pick();
+   charlie.turn(LEFT);
+   charlie.hop(3);
+   charlie.give(LEFT);
+   peanuts.turn(RIGHT);
+   peanuts.hop();
+   peanuts.turn(LEFT);
+   peanuts.hop(3);
+   peanuts.give(RIGHT);
+   linus.turn(RIGHT);
+   linus.turn(RIGHT);
+   linus.hop();
+   linus.turn(LEFT);
+   linus.hop();
+   linus.plant();
+   linus.turn(RIGHT);
+   linus.hop(5);
+   
+
+
+
+
+}

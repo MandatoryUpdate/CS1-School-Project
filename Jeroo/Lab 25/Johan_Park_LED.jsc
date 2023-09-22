@@ -1,0 +1,505 @@
+@Java
+method make0()
+{
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   turn(RIGHT);
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   turn(RIGHT);
+   hop();
+   turn(LEFT);
+   hop();
+   turn(RIGHT);
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   turn(RIGHT);
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   turn(RIGHT);
+  hop(4);
+  //The command below moves the Jeroo 3 spaces, it is not associated with reaching the top right corner of the number
+  hop(3);
+}
+
+method make1()
+{
+   hop();
+   plant();
+   hop();
+   plant();
+   turn(RIGHT);
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   turn(LEFT);
+   hop(2);
+   turn(RIGHT);
+   turn(RIGHT);
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   hop();
+   plant();
+   turn(RIGHT);
+   hop(5);
+   plant();
+   hop();
+   turn(RIGHT);
+  hop(4);
+//The command below moves the Jeroo 3 spaces, it is not associated with reaching the top right corner of the number
+  hop(3);
+}
+
+method make2()
+{
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+turn(RIGHT);
+hop();
+plant();
+hop();
+plant();
+turn(RIGHT);
+hop();
+turn(LEFT);
+hop();
+plant();
+turn(RIGHT);
+hop();
+turn(LEFT);
+hop();
+plant();
+turn(RIGHT);
+hop();
+turn(LEFT);
+hop();
+plant();
+hop();
+turn(LEFT);
+hop(3);
+turn(RIGHT);
+turn(RIGHT);
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+hop();
+plant();
+turn(RIGHT);
+hop(5);
+plant();
+hop();
+turn(RIGHT);
+  hop(4);
+//The command below moves the Jeroo 3 spaces, it is not associated with reaching the top right corner of the number
+  hop(3);
+}
+
+method make3()
+{
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(RIGHT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(RIGHT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  turn(LEFT);
+  hop(3);
+  turn(LEFT);
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(LEFT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop(4);
+  turn(RIGHT);
+//The command below moves the Jeroo 3 spaces, it is not associated with reaching the top right corner of the number
+  hop(3);
+}
+
+method make4()
+{
+  
+  plant();
+  turn(RIGHT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  turn(LEFT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  turn(LEFT);
+  hop(3);
+  turn(RIGHT);
+  turn(RIGHT);
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  turn(LEFT);
+  turn(LEFT);
+  hop(6);
+  turn(RIGHT);
+//The command below moves the Jeroo 3 spaces, it is not associated with reaching the top right corner of the number
+  hop(3);
+}
+
+method make5()
+{
+  turn(RIGHT);
+  hop(6);
+  turn(LEFT);
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(LEFT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(LEFT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(RIGHT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  turn(RIGHT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+//The command below moves the Jeroo 3 spaces, it is not associated with reaching the top right corner of the number
+  hop(3);
+}
+
+method make6()
+{
+  turn(RIGHT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(LEFT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(LEFT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(LEFT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(RIGHT);
+  hop(2);
+  plant();
+  hop();
+  turn(RIGHT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(RIGHT);
+  hop();
+  plant();
+  turn(RIGHT);
+  turn(RIGHT);
+  hop();
+  turn(RIGHT);
+//The command below moves the Jeroo 3 spaces, it is not associated with reaching the top right corner of the number
+  hop(3);
+}
+
+method make7()
+{
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  turn(RIGHT);
+  hop();
+  plant();
+  hop();
+  plant();
+  turn(RIGHT);
+  hop();
+  turn(LEFT);
+  hop();
+  plant();
+  hop();
+  plant();
+  turn(RIGHT);
+  hop();
+  turn(LEFT);
+  hop();
+  plant();
+  hop();
+  plant();
+  turn(LEFT);
+  hop(2);
+  turn(LEFT);
+  hop(6);
+  turn(RIGHT);
+//The command below moves the Jeroo 3 spaces, it is not associated with reaching the top right corner of the number
+  hop(3);
+}
+method make8()
+{
+  turn(RIGHT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop(2);
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(LEFT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(LEFT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(LEFT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(RIGHT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(RIGHT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(RIGHT);
+  hop();
+  plant();
+  hop();
+  plant();
+  turn(RIGHT);
+  turn(RIGHT);
+  hop(2);
+  turn(RIGHT);
+//The command below moves the Jeroo 3 spaces, it is not associated with reaching the top right corner of the number
+  hop(3);
+  
+}
+
+method make9()
+{
+  turn(RIGHT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop(4);
+  turn(LEFT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(LEFT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  turn(LEFT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  plant();
+  turn(RIGHT);
+  hop(3);
+  plant();
+  turn(RIGHT);
+  hop();
+  plant();
+  hop();
+  plant();
+  hop();
+  turn(RIGHT);
+  hop();
+  plant();
+  hop();
+  plant();
+  turn(RIGHT);
+  turn(RIGHT);
+  hop(2);
+  turn(RIGHT);
+//The command below moves the Jeroo 3 spaces, it is not associated with reaching the top right corner of the number
+  hop(3);
+  
+}
+@@
+method main()
+{
+   Jeroo tack = new Jeroo(999999);
+   tack.make3();
+   tack.make0();
+   tack.make8();
+
+}

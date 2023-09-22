@@ -1,0 +1,17 @@
+@Java
+
+@@
+
+ method main()
+{
+   Jeroo sam = new Jeroo(2,2,2);
+   sam.hop(2);
+   sam.toss();
+   sam.turn(RIGHT);
+   sam.hop(3);
+   sam.toss();
+
+
+
+
+}
